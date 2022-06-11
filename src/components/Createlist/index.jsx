@@ -10,6 +10,7 @@ const CreateList = ({ todo, setTodo, handleSubmit, isUpdate }) => {
           className={createListCss.input}
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
+          placeholder="Todo Item.."
         />
         <button
           type="submit"
