@@ -27,9 +27,14 @@
     border-radius: 5px;
     background-color: rgb(255, 187, 0);
     color: #fff;
+    transition: all 0.3s;
 }
 
 .btn_disable {
     opacity: 0.6;
     cursor: not-allowed;
+}
+
+.btn:hover {
+    transform: scale(1.2);
 }
