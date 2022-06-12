@@ -6,23 +6,18 @@ module.exports = {
   output: {
     filename: "[name].js",
     path: commonPaths.outputPath,
-    publicPath:"/",
+    publicPath: "/",
     chunkFilename: "[name].js",
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: [
-          "style-loader",
-          "css-loader"
-        ],
-      }
-    ]
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
-  plugins:[
-    new HtmlWebpackPlugin({ template: "./src/template/index.html" })
-  ],
+  plugins: [new HtmlWebpackPlugin({ template: "./src/template/index.html" })],
   devServer: {
     historyApiFallback: true,
     compress: true,
