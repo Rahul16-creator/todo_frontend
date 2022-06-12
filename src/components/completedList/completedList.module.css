@@ -7,6 +7,16 @@
   padding-top: 1rem;
   height: 22rem;
   overflow-y: scroll;
+  animation: leftmove .5s linear;
+}
+
+@keyframes leftmove {
+  0% {
+    transform: translateX(-100rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .listName {
