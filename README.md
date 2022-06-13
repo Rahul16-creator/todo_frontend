@@ -10,3 +10,5 @@ Step2:
 
 
 If you face any issue in starting the application , then delete package-lock.json file and do  `npm install` and `npm start`
+
+localhost url : http://localhost:8080
